@@ -1,0 +1,27 @@
+.login {
+  height: 100vh;
+  background-image: url("https://miro.medium.com/max/6000/1*ov48rMLRpcWKUQhS4DokAA.png");
+  &__content {
+    display: grid;
+    place-items: center;
+    background-color: black;
+    height: 100vh;
+    max-width: 60rem;
+    margin: auto;
+    z-index: 100;
+  }
+  &__logo {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  &__btn {
+    font-size: 1.5rem;
+    color: $color-white;
+    padding: 2rem 3rem;
+    border-radius: 9.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: $color-primary;
+  }
+}
